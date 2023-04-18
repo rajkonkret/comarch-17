@@ -9,6 +9,10 @@ class Human:
         self.plec = plec
 
     def powitanie(self):
+        """
+        metoda
+        :return:
+        """
         print("Nazywam sie", self.imie)
 
     def ruszaj(self):
@@ -24,5 +28,6 @@ czl_2 = Human("Tomek")
 czl_2.powitanie()
 czl_2.ruszaj()
 czl_1.ruszaj()
-
+print(czl_1.__doc__)
+print(czl_1.powitanie.__doc__)
 #13:30
