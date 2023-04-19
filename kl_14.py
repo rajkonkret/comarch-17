@@ -66,3 +66,4 @@ art['czy_znasz_Pythona'] = 7
 print(art.longest_key())
 print(Friend.__mro__)
 # (<class '__main__.Friend'>, <class '__main__.Suplier'>, <class '__main__.Contact'>, <class 'object'>)
+# 11:00
